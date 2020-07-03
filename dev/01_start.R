@@ -44,10 +44,10 @@ golem::use_recommended_tests()
 ## Use Recommended Packages ----
 golem::use_recommended_deps()
 
-## Favicon ----
-# If you want to change the favicon (default is golem's one)
-golem::remove_favicon()
-golem::use_favicon() # path = "path/to/ico". Can be an online file. 
+# ## Favicon ----
+# # If you want to change the favicon (default is golem's one)
+# golem::remove_favicon()
+# golem::use_favicon() # path = "path/to/ico". Can be an online file. 
 
 ## Add helper functions ----
 golem::use_utils_ui()
