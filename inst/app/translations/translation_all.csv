@@ -1,0 +1,24 @@
+labels,en,it
+_Load,Load,Carica
+_Interpolate,Interpolate,Interpola
+_Close,Close,Chiudi
+_Import,Import,Importa
+_Export,Export,Esporta
+_On,On,On
+_Off,Off,Off
+_Yes,Yes,S&#236;
+_No,No,No
+_Ok,Ok,Ok
+_Cancel,Cancel,Annulla
+_Save,Save,Salva
+_Exit,Exit,Esci
+_Select,Select,Seleziona
+_Auto,Auto,Auto
+_Man,Man,Man
+_Filename,Filename,Nome file
+_Filetype,File type,Tipo di file
+
+_showDir_label,Input folder,Cartella di input
+_showDir_button,Change,Cambia
+_showDir_sfb,Select the input folder,Seleziona la cartella di input
+_showDir_showall,Show all files,Mostra tutti i file

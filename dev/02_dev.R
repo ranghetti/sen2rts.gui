@@ -14,10 +14,7 @@
 # Engineering
 
 ## Dependencies ----
-## Add one line by package you want to add as dependency
-usethis::use_package( "thinkr" )
-
-## Use renv to install/remove packages
+# use renv to install/remove packages
 
 # shinydashboard
 renv::install("shinydashboard")         # 1. INSTALL the package
@@ -32,9 +29,13 @@ renv::snapshot()
 # remove it from ROXYGEN comments
 
 ## Add modules ----
-## Create a module infrastructure in R/
-golem::add_module( name = "name_of_module1" ) # Name of the module
-golem::add_module( name = "name_of_module2" ) # Name of the module
+
+# Dashboard page to load S2 images
+golem::add_module( name = "loadS2" )
+
+# Block to show a directory content
+golem::add_module( name = "showDir" )
+
 
 ## Add helper functions ----
 ## Creates ftc_* and utils_*
