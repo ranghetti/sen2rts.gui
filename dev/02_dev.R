@@ -17,6 +17,18 @@
 ## Add one line by package you want to add as dependency
 usethis::use_package( "thinkr" )
 
+## Use renv to install/remove packages
+# install a package
+renv::install("packagename")         # 1. INSTALL the package
+usethis::use_package("packagename")  # 2. fill in DESCRIPTION
+renv::snapshot()                     # 3. update RENV
+# add it in ROXYGEN comments         # 4. add to ROXYGEN/NAMESPACE
+# remove a package
+renv::remove("packagename")
+renv::snapshot()
+# remove it from DESCRIPTION
+# remove it from ROXYGEN comments
+
 ## Add modules ----
 ## Create a module infrastructure in R/
 golem::add_module( name = "name_of_module1" ) # Name of the module
