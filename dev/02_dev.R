@@ -24,15 +24,15 @@ renv::snapshot()                        # 3. update RENV
 
 # sen2rts
 renv::install("ranghetti/sen2rts")      # 1. INSTALL the package
-usethis::use_package("sen2rts")         1# 2. fill in DESCRIPTION
+usethis::use_package("sen2rts")         # 2. fill in DESCRIPTION
 renv::snapshot()                        # 3. update RENV
 # add it in ROXYGEN comments            # 4. add to ROXYGEN/NAMESPACE
 
-# to remove a package:
-renv::remove("packagename")
-renv::snapshot()
-# remove it from DESCRIPTION
-# remove it from ROXYGEN comments
+# # to remove a package:
+# renv::remove("packagename")
+# renv::snapshot()
+# # remove it from DESCRIPTION
+# # remove it from ROXYGEN comments
 
 ## Add modules ----
 

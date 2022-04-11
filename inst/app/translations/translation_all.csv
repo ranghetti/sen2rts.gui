@@ -22,3 +22,8 @@ _showDir_label,Input folder,Cartella di input
 _showDir_button,Change,Cambia
 _showDir_sfb,Select the input folder,Seleziona la cartella di input
 _showDir_showall,Show all files,Mostra tutti i file
+
+_title_s2input,Input raster files,File raster di input
+_load_s2input,Load raster files,Carica i file raster
+_activate_gui,Load time series,Carica la serie temporale
+_title_insf,Input vector shape,Vettoriale di input
